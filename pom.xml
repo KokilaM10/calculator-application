@@ -8,11 +8,11 @@
 		<version>2.3.3.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.soprasteria</groupId>
-	<artifactId>calculator-application</artifactId>
+	<groupId>com.sshankar77</groupId>
+	<artifactId>WebDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Calculator Aplication</name>
-	<description>Simple Calculator Application</description>
+	<name>WebDemo</name>
+	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -22,12 +22,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		
-		<dependency>
-		    <groupId>org.apache.tomcat.embed</groupId>
-		    <artifactId>tomcat-embed-jasper</artifactId>
-		    <scope>provided</scope>
 		</dependency>
 
 		<dependency>
@@ -40,6 +34,31 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+        <dependency>
+        	<groupId>org.apache.tomcat.embed</groupId>
+    		<artifactId>tomcat-embed-jasper</artifactId>
+    		<scope>provided</scope>
+    	</dependency>
+		<dependency>
+    		<groupId>net.sourceforge.jwebunit</groupId>
+    		<artifactId>jwebunit</artifactId>
+    		<version>3.3</version>
+   		    <type>pom</type>
+   		</dependency>
+		<dependency>
+			<groupId>net.sourceforge.jwebunit</groupId>
+			<artifactId>jwebunit-htmlunit-plugin</artifactId>
+			<version>3.3</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sourceforge.jwebunit</groupId>
+			<artifactId>jwebunit-core</artifactId>
+			<version>3.3</version>
+		</dependency>
+		<dependency>
+    		<groupId>org.apache.httpcomponents</groupId>
+     		<artifactId>httpclient</artifactId>
 		</dependency>
 	</dependencies>
 

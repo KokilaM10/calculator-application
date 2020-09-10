@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Simple Arithmetic Calculator - git demo</title>
+<title>Simple Arithmetic Calculator - Git demo Session</title>
 </head>
 <body>
-<h1>Simple Arithmetic Calculator</h1>
+<h1>Simple Arithmetic Calculator - Git demo Session</h1>
     <form id="calcform" method="post">
     	<table>
     		<tr>

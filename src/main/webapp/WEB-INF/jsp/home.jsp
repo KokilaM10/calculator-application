@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Simple Arithmetic Calculator</title>
+<title>Simple Arithmetic Calculator - git demo</title>
 </head>
 <body>
 <h1>Simple Arithmetic Calculator</h1>
@@ -13,13 +13,13 @@
     		<tr>
     			<td>Number 1 :</td>
     			<td>
-    				<input type="text" id='inum1' name="num1" style="text-align:right;" maxlength=15 value="${num1}" required />
+    				<input type="text" id='inum1' name="number1" style="text-align:right;" maxlength=15 value="${num1}" required />
     			</td>
     		</tr>
     		<tr>
     			<td>Number 2 :</td>
     			<td>
-    				<input type="text" id='inum2' name="num2" style="text-align:right;" maxlength=15 value="${num2}" required />
+    				<input type="text" id='inum2' name="number2" style="text-align:right;" maxlength=15 value="${num2}" required />
     			</td>
     		</tr>
     		<tr>
